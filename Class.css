@@ -1,0 +1,249 @@
+/* Google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --primary: #49d1d1;
+    --secondary: #2d3239;
+}
+
+/* Start*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+li {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    color: #333;
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    line-height: 1.4;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+
+a {
+    font-family: "kanit", sans-serif;
+    color: #000;
+    font-size: 15px;
+    text-decoration: none !important;
+    transition: .4s ease;
+}
+
+.img {
+    max-width: 100%;
+    transition: .4s ease;
+}
+
+.pt-6 {
+    padding-top: 60px;
+}
+
+.container {
+    max-width: 1240px;
+}
+
+/*--header style*/
+.navbar-brand {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.navbar-brand span {
+    color: var(--primary);
+}
+
+nav .navbar-nav .nav-link {
+    color: #000;
+    padding: 5px 20px !important;
+    font-size: 16px;
+}
+
+nav .navbar-nav .nav-link:hover {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 5px;
+}
+
+.search-icon {
+    border-radius: 2px solid#c3c3c3;
+    padding: 4px 22px;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.shop-icon ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shop-icon ul li a {
+    background-color: var(--primary);
+    margin: 1px;
+    padding: 8px 12px;
+    border-radius: 30px;
+    color: white;
+}
+
+.shop-icon ul li a:hover {
+    background-color: var(--secondary);
+}
+
+/*--banner style*/
+section {
+    position: relative;
+}
+
+#L1 {
+    border-bottom: 2px solid var(--primary) !important;
+}
+
+/*---Class  style----*/
+.A p {
+    margin-left: 160px;
+    font-size: 25px;
+    color: #6900d1;
+    margin-top: 75px;
+}
+
+.A a:hover {
+    background-color: #fff !important;
+    transition: ease-in-out;
+}
+
+.row-banner {
+    margin-top: 8%;
+    color: #fff;
+}
+
+.row-banner p {
+    margin: 80px 0 50px;
+    margin-left: 120px !important;
+    font-size: 30px;
+    color: #6900d1;
+    margin-top: 75px;
+}
+
+.row-banner img {
+    max-height: 250px !important;
+    margin-top: -160px !important;
+    float: right !important;
+    margin-right: -75px !important;
+}
+
+.row-banner a {
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: #fff;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.express-btn {
+   margin-left: 10px !important;
+    background: #6900d1 !important;
+    color: black !important;
+    margin-right: 5px;
+    position: absolute;
+    left: -200px !important;
+    transform: translateX(150%);
+    width: 250px !important;
+}
+
+.row-banner {
+    position: relative;
+}
+
+#a1 {
+    border: 3px solid brown;
+    height: 400px;
+    padding: 0;
+    width: 50px;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px !important;
+}
+
+
+
+
+.class-container {
+    margin-top: 200px !important;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.class-card {
+    display: flex;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.class-card img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.class-info {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.class-info h2 {
+    color: #7a1c1c;
+    margin-bottom: 10px;
+}
+
+.class-info p {
+    margin: 5px 0;
+}
+
+.class-info button {
+    margin-top: 15px;
+    background-color: #7a1c1c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.class-info button:hover {
+    background-color: #5e1414;
+}

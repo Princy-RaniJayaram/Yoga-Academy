@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shop</title>
+
+    <!----Bootstrap Css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!----Fontawesome Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ✅ Slick CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+
+
+    <link rel="stylesheet" href="Shop.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <span> BLOOM</span> YOGA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="AbtUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Prd.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Shop.html" id="L1">New Arrivals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Blog.html">Blogs</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="Class.html">Class</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="search-icon"><i class=" fa-solid fa-magnifying-glass"></i></div>
+                    <div class="shop-icon">
+                        <ul>
+                            <li> <a href=""> <i class=" fa-regular fa-heart"></i></a></li>
+                            <li> <a href=""> <i class=" fa-solid fa-bag-shopping"></i></a></li>
+                            <li> <a href=""> <i class=" fa-regular fa-user"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="yoga-product pt-5 pb-5">
+        <div class="container">
+            <div class="header-main"> <br><br>
+                <h2> Sale upto 30% off </h2>
+                <h2> Best Trendy<span>Yoga Wear for Women </span></h2>
+                <p> Shop trendy & comfy pilates and yoga clothes online from YamaYoga. Premium range of yoga pants,
+                    leggings, yoga dresses and more.</p> <br>
+                <button type="button" class="btn btn-nav me-3"> Shop Now </button>
+                <button type="button" class="btn btn-nav bg-dark text-white"> Contact Now </button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title text-center mb-5"id="A1"> <br>
+                <h3>Let's Shop </h3>
+                <h2>Everything for Your Yoga</h2>
+            </div>
+
+            <div class="yoga-slider">
+                <div class="slider-box"><img src="Sli1.jpeg" alt="Slide 1"></div>
+                <div class="slider-box"><img src="Sli2.jpeg" alt="Slide 2"></div>
+                <div class="slider-box"><img src="Sli3.jpeg" alt="Slide 3"></div>
+                <div class="slider-box"><img src="Sli4.jpeg" alt="Slide 4"></div>
+                <div class="slider-box"><img src="Sli5.jpeg" alt="Slide 5"></div>
+                <div class="slider-box"><img src="Sli6.jpeg" alt="Slide 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ✅ jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- ✅ Slick JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- ✅ Slick Activation -->
+    <script>
+        $(document).ready(function () {
+            $('.yoga-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
