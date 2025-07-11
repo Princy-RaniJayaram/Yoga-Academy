@@ -66,43 +66,45 @@ a {
 }
 
 /*--header style*/
-.navbar-brand {
+.navbar-brand
+{
     color: #000;
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 34px;
+    font-weight: 500;
     letter-spacing: 3px;
 }
-
-.navbar-brand span {
+.navbar-brand span
+{
     color: var(--primary);
 }
-
-nav .navbar-nav .nav-link {
+nav .navbar-nav .nav-link
+{
     color: #000;
-    padding: 5px 20px !important;
+    padding: 5px 17px !important;
     font-size: 16px;
 }
-
-nav .navbar-nav .nav-link:hover {
+nav .navbar-nav .nav-link:hover
+{
     background-color: var(--primary);
     color: white;
     border-radius: 5px;
 }
 
-.search-icon {
+.search-icon
+{
     border-radius: 2px solid#c3c3c3;
-    padding: 4px 22px;
-    margin-right: 25px;
-    font-size: 20px;
+    padding: 4px 20px;
+    margin-right: 23px;
+    font-size: 18px;
 }
-
-.shop-icon ul {
+.shop-icon ul
+{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-
-.shop-icon ul li a {
+.shop-icon ul li a
+{
     background-color: var(--primary);
     margin: 1px;
     padding: 8px 12px;
